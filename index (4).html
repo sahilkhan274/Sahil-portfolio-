@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahil Khan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+      color: #ff4d4d;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1621431614278-02d23c368db1?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 2rem 1.5rem;
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1f1f1f;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #1a1a1a;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #ff4d4d;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sahil Khan</h1>
+    <p>Game Developer | Logo Designer | AI Tools Specialist</p>
+  </header>
+
+  <div class="hero">
+    <h2>Building Immersive Worlds, One Line of Code at a Time</h2>
+  </div>
+
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project Eden: Frontier</h3>
+        <p>3D sci-fi action RPG survival game currently in solo development. Rich story, immersive mechanics, and futuristic design.</p>
+      </div>
+      <div class="card">
+        <h3>Logo Design Portfolio</h3>
+        <p>A collection of custom-designed logos for tech startups, gaming brands, and AI tools companies.</p>
+      </div>
+      <div class="card">
+        <h3>AI Tool Integrations</h3>
+        <p>Helping creators and businesses automate with cutting-edge AI tools like ChatGPT, MidJourney, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Connect with Me</h2>
+    <p>Follow my journey on Instagram: <a href="https://www.instagram.com/sahil.0lifts" target="_blank">@sahil.0lifts</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sahil Khan. All rights reserved.
+  </footer>
+</body>
+</html>
