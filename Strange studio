@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Khan | Strange Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #e5e5e5;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(90deg, #7e22ce, #ec4899);
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header h2 {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #a855f7;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .projects img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: none;
+      background: #262626;
+      color: white;
+    }
+    form button {
+      background: #9333ea;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    form button:hover {
+      background: #7e22ce;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Hi, I’m Sahil Khan</h1>
+    <h2>CEO & Founder of Strange Studio</h2>
+    <p>Game Designer • Developer • Dreamer • AI Explorer</p>
+  </header>
+
+  <!-- About Section -->
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I’m a passionate Game Designer & Developer with a dream to create meaningful, immersive experiences.
+        As the CEO & Founder of <strong>Strange Studio</strong>, my mission is to bring unique visions to life,
+        leverage AI in gaming, and work abroad to fulfill my career goals.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Uttam Institute of Technology</h3>
+      <p>Bachelor’s in Computer Science & Game Design</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://picsum.photos/600/400?random=1" alt="103: The Last Shift">
+        <h3>103: The Last Shift</h3>
+        <p>A survival horror game that immerses players in a tense, mysterious night shift experience.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/600/400?random=2" alt="Dead Vlog Outbreak">
+        <h3>Dead Vlog Outbreak</h3>
+        <p>A post-apocalyptic narrative-driven game combining horror, survival, and found footage storytelling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>Contact Me</h2>
+    <form onsubmit="alert('Form submitted! (Demo only)'); return false;">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sahil Khan | Strange Studio. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
